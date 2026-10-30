@@ -426,3 +426,14 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+# .NET
+**/bin/
+**/obj/
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/
+# Environment files
+.env
+.env.*
+# Visual Studio
